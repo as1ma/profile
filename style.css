@@ -1,0 +1,68 @@
+*{box-sizing: border-box;
+    margin:0em;
+    padding: 0em;
+}
+
+body{
+    text-align:center; 
+    background-image: url(https://videohive.img.customer.envatousercontent.com/files/227714272/Binary%20Code%20Background%20%2001_preview1.JPG?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=4ac645f9f3c974f81fa45c4e85ebcaf1);
+}
+
+h1{
+    background-color:steelblue; 
+    color:white;
+    font-family: monospace;
+    margin:1em;
+    
+}
+
+#About{
+    background-color:navy; 
+    color:white; 
+    font-family: monospace;
+    margin:1em;
+}
+
+#Experience{
+    background-color: midnightblue; 
+    color:white;
+    font-family: monospace;
+    margin:1em;
+}
+
+#Qualifications{
+    background-color: royalblue;
+    color:white;
+    font-family: monospace;
+    margin:1em;
+
+}
+
+#TrainingCourses{
+    background-color: darkslateblue;
+    color:white;
+    font-family: monospace;
+    margin: 1em;
+}
+
+#Skills{
+    background-color: rgb(168, 156, 238); 
+    color:white; 
+    font-family: monospace;
+    margin:1em;
+}
+
+#Projects{
+    background-color: teal; 
+    color:white;
+    font-family: monospace;
+    margin:1em;
+}
+
+footer{
+    background-color: gray;
+    color:white;
+    font-family: monospace;
+    margin:1em;
+    width: 100;
+}
