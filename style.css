@@ -3,17 +3,49 @@
     padding: 0em;
 }
 
+.nav-bar{
+    background-color: rgb(4, 3, 82);
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    justify-content: right;
+    align-items:normal;
+      
+}
+
+.nav-list{
+    list-style: none;
+    color: white;
+    display: flex;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.nav-bar ul li{
+    margin: 0.5em;
+}
+/* 
+.nav-list a:hover {
+    background: var(--main-blue);
+  }
+   */
+
 body{
     text-align:center; 
     background-image: url(https://videohive.img.customer.envatousercontent.com/files/227714272/Binary%20Code%20Background%20%2001_preview1.JPG?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=4ac645f9f3c974f81fa45c4e85ebcaf1);
 }
 
 h1{
-    background-color:steelblue; 
+    background-color:rgba(70, 131, 180, 0.603); 
     color:white;
     font-family: monospace;
-    margin:1em;
+    margin:0.1em;
     font-size: xxx-large;
+    padding: 4em;
     
 }
 
@@ -36,6 +68,7 @@ h1{
     color:white;
     font-family: monospace;
     margin:1em;
+    padding: 4em;
 }
 
 #Qualifications{
