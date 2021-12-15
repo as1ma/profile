@@ -27,26 +27,46 @@
 
 .nav-bar ul li{
     margin: 0.5em;
+    font-family: monospace;
 }
-/* 
-.nav-list a:hover {
-    background: var(--main-blue);
-  }
-   */
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+}
+.nav-bar ul li a:hover{
+    background-color: white;
+    color:black;
+}
 
 body{
     text-align:center; 
     background-image: url(https://videohive.img.customer.envatousercontent.com/files/227714272/Binary%20Code%20Background%20%2001_preview1.JPG?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=4ac645f9f3c974f81fa45c4e85ebcaf1);
 }
 
+#Home{
+    background-color:rgba(70, 131, 180, 0.26); 
+    color: white;
+    padding: 5em;
+    padding-bottom: 18em;
+}
+
 h1{
-    background-color:rgba(70, 131, 180, 0.603); 
     color:white;
     font-family: monospace;
     margin:0.1em;
     font-size: xxx-large;
-    padding: 4em;
+    padding-top: 4em;
     
+    
+}
+
+#about{
+    color: white;
+    font-size: 1em;
+    padding-top: 4em;
+    text-align: left;
 }
 
 .header{
@@ -55,55 +75,64 @@ h1{
 
 }
 
-#About{
+/* .Home{
     background-color:navy; 
     color:white; 
     font-family: monospace;
     margin:1em;
     margin-top: 1em;
-}
+} */
 
 #Experience{
-    background-color: midnightblue; 
+    background-color: rgba(25, 25, 112, 0.815); 
     color:white;
     font-family: monospace;
-    margin:1em;
+    /* margin:1em; */
     padding: 4em;
+    padding-bottom: 18em;
 }
 
 #Qualifications{
-    background-color: royalblue;
+    background-color: rgba(65, 105, 225, 0.438);
     color:white;
     font-family: monospace;
-    margin:1em;
+    padding:4em;
+    padding-bottom: 18em;
 
-}
-
-#TrainingCourses{
-    background-color: darkslateblue;
-    color:white;
-    font-family: monospace;
-    margin: 1em;
 }
 
 #Skills{
-    background-color: rgb(168, 156, 238); 
+    background-color: rgba(118, 105, 194, 0.603); 
     color:white; 
     font-family: monospace;
-    margin:1em;
+    padding:4em;
+    padding-bottom: 18em;
 }
 
 #Projects{
-    background-color: teal; 
+    list-style: none;
+    background-color: rgba(28, 1, 53, 0.616); 
     color:white;
     font-family: monospace;
-    margin:1em;
+    padding:4em;
+    padding-bottom: 18em;
+}
+
+#2D-Rubiks{
+    height: 10em;
+    width: 10em;
+    object-fit: cover;
+
+}
+#BouncingBalls{
+    height: 10em;
+    width: 10em;
+    object-fit: cover;
 }
 
 footer{
     background-color: gray;
     color:white;
     font-family: monospace;
-    margin:1em;
     width: 100;
 }
