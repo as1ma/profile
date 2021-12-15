@@ -110,24 +110,42 @@ h1{
 }
 
 #Projects{
-    list-style: none;
     background-color: rgba(28, 1, 53, 0.616); 
     color:white;
     font-family: monospace;
     padding:4em;
     padding-bottom: 18em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-#2D-Rubiks{
-    height: 10em;
-    width: 10em;
-    object-fit: cover;
+
+
+.projects-grid{
+    display:flex;
+    flex-wrap: wrap; 
+
+    width:40%;
+    min-height:100px;
+    background-color:rgb(53, 120, 226);
+    margin:1%;
+    padding:1%;
+    border: 2px solid blue;
+    box-shadow: darkslategrey;
+}
+
+.project-name{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
 
 }
-#BouncingBalls{
-    height: 10em;
-    width: 10em;
-    object-fit: cover;
+.project-image {
+    padding-top: 1em;
+    height: 20em;
+    width: 20em;
 }
 
 footer{
