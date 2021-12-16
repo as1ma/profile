@@ -52,20 +52,47 @@ body{
     padding-bottom: 18em;
 }
 
+.wrapper {
+    height: 85vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.typing{
+    width: 6.5em;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 5em;
+}
+
+@keyframes typing {
+from {
+    width: 0
+}
+}
+    
+@keyframes blink {
+50% {
+    border-color: transparent
+}
+}
+
 h1{
     color:white;
     font-family: monospace;
     margin:0.1em;
     font-size: xxx-large;
-    padding-top: 4em;
-    
-    
 }
 
 #about{
     color: white;
     font-size: 1em;
-    padding-top: 4em;
+    padding-top: 1em;
     text-align: left;
 }
 
@@ -84,6 +111,7 @@ h1{
 } */
 
 #Experience{
+    list-style: none;
     background-color: rgba(25, 25, 112, 0.815); 
     color:white;
     font-family: monospace;
@@ -109,26 +137,39 @@ h1{
     padding-bottom: 18em;
 }
 
-#Projects{
+.Projects{
     background-color: rgba(28, 1, 53, 0.616); 
-    color:white;
+    color:rgb(246, 244, 248);
     font-family: monospace;
     padding:4em;
     padding-bottom: 18em;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;*/
+} 
+
+#project-header{
+    color:white;
+    font-size: xx-large;
+}
+
+#project-tiles{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
-
-
-
 .projects-grid{
     display:flex;
     flex-wrap: wrap; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
     width:40%;
     min-height:100px;
-    background-color:rgb(53, 120, 226);
+    background-color:rgb(3, 32, 78);
     margin:1%;
     padding:1%;
     border: 2px solid blue;
